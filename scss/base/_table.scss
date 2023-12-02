@@ -1,0 +1,25 @@
+table {
+  // font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table {
+  &__arrow {
+    display: block;
+    font-weight: 600;
+    transform: rotate(90deg);
+    line-height: 0.3;
+  }
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
